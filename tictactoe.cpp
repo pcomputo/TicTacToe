@@ -19,15 +19,20 @@ void board(char a[3][3],int p,char sym,char play1[50],char play2[50])
          }
            
         
-	cout<<"     |               |     " << endl;
-        cout<<" "<<a[0][0]<<"|"<<a[0][1]<<"  |  "<<a[0][2]<<endl;
-	cout<<"_____|_______________|_____" << endl;
-	cout<<"     |               |     " << endl;
-cout<<""<<a[1][0]<<"|  "<<a[1][1]<<"|  "<<a[1][2]<<endl;
-	cout<<"_____|_______________|_____" << endl;
-	cout<<"     |               |     " << endl;
-cout<<""<<a[2][0]<<"|  "<<a[2][1]<<"|  "<<a[2][2]<<endl;
-	cout<<"     |               |     " <<endl<<endl;
+	cout << "     |     |     " << endl;
+	cout << "  " << a[0][0] <<  "   |  " << a[0][1] << "   |  " << a[0][2] << endl;
+
+	cout << "_____|_____|_____" << endl;
+	cout << "     |     |     " << endl;
+
+	cout << "  " << a[1][0] <<  "   |  " << a[1][1] << "   |  " << a[1][2] << endl;
+
+	cout << "_____|_____|_____" << endl;
+	cout << "     |     |     " << endl;
+
+	cout << "  " << a[2][0] <<  "   |  " << a[2][1] << "   |  " << a[2][2] << endl;
+
+	cout << "     |     |     " << endl << endl;
 }
 
 int check(char a[3][3],int x,int y,char sym)
